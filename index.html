@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelTrove</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/aab807f28c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header">
+
+        <nav id="navBar">
+            <a href="/index.html">
+                <img src="images/logo1.png" class="logo">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#" class="active" onclick="navigateTo('index.html')">Travel Outside</a></li>
+                <li><a href="#" onclick="navigateTo('listing.html')">Accommodations</a></li>
+                <li><a href="#" onclick="navigateTo('popular.html')">Popular Getaways</a></li>
+            </ul>
+
+            <a href="#" class="register-btn">Register Now</a>
+            <i class="fa-solid fa-bars" onClick="togglebtn()"></i>
+        </nav>
+
+       
+        <div class="container">
+            <h1>Find your next stay.</h1>
+        </div>
+        <div class="search-bar">
+            <form>
+                <div class="location-input">
+                    <label>Location</label>
+                    <input type="text" placeholder="Where are you going?">
+                </div>
+                <div>
+                    <label>Check in</label>
+                    <input type="text" placeholder="Add Date">
+                </div>
+                <div>
+                    <label>Check out</label>
+                    <input type="text" placeholder="Add Date">
+                </div>
+                <div>
+                    <label>Guest</label>
+                    <input type="text" placeholder="Add Guest">
+                </div>
+                <button type="submit"><img src="/Images/search.png"></button>
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <h2 class="subtitle">Exclusives</h2>
+        <div class="exclusives">
+            <div>
+                <img src="Images/Destination1.png" alt="">
+                <span>
+                    <h3>Greece</h3>
+                    <p>Starts with $350</p>
+                </span>
+            </div>
+            <div>
+                <img src="Images/Destination2.png" alt="">
+                <span>
+                    <h3>Turkey</h3>
+                    <p>Starts with $750</p>
+                </span>
+            </div>
+            <div>
+                <img src="Images/Destination3.png" alt="">
+                <span>
+                    <h3>Singapore</h3>
+                    <p>Starts with $950</p>
+                </span>
+            </div>
+            <div>
+                <img src="Images/Destination4.png" alt="">
+                <span>
+                    <h3>Swizwerland</h3>
+                    <p>Starts with $750</p>
+                </span>
+            </div>
+            <div>
+                <img src="Images/Destination8.png" alt="">
+                <span>
+                    <h3>Japan</h3>
+                    <p>Starts with $250</p>
+                </span>
+            </div>
+            <div>
+                <img src="Images/Destination5.png" alt="">
+                <span>
+                    <h3>Thailand</h3>
+                    <p>Starts with $250</p>
+                </span>
+            </div>
+            <div>
+                <img src="Images/Destination6.png" alt="">
+                <span>
+                    <h3>London</h3>
+                    <p>Starts with $450</p>
+                </span>
+            </div>
+
+            <div>
+                <img src="Images/Destination9.png" alt="">
+                <span>
+                    <h3>Kenya</h3>
+                    <p>Starts with $250</p>
+                </span>
+            </div>
+            <div>
+                <img src="Images/Destination10.png" alt="">
+                <span>
+                    <h3>Dubai</h3>
+                    <p>Starts with $450</p>
+                </span>
+            </div>
+
+            <div>
+                <img src="Images/Destination7.png" alt="">
+                <span>
+                    <h3>Korea</h3>
+                    <p>Starts with $250</p>
+                </span>
+            </div>
+            <div>
+                <img src="Images/Destination11.png" alt="">
+                <span>
+                    <h3>Rome</h3>
+                    <p>Starts with $150</p>
+                </span>
+            </div>
+            <div>
+                <img src="Images/Destination12.png" alt="">
+                <span>
+                    <h3>Germany</h3>
+                    <p>Starts with $550</p>
+                </span>
+            </div>
+
+        </div>
+
+        <h2 class="subtitle">Trending places</h2>
+        <div class="trending">
+            <div>
+                <img src="Images/Destination13.png">
+                <h3>Iceland</h3>
+            </div>
+            <div>
+                <img src="Images/Destination14.png">
+                <h3>Paris</h3>
+            </div>
+            <div>
+                <img src="Images/Destination15.png">
+                <h3>New York</h3>
+            </div>
+        </div>
+        <div class="cta">
+            <h3>Sharing <br>Is Earning Now</h3>
+            <p>Great opportunity to make money by <br>sharing your extra space.</p>
+            <a href="#a" class="cta-btn">Know More</a>
+        </div>
+
+
+        <h2 class="subtitle">Travellers Stories</h2>
+        <div class="stories">
+            <div>
+                <img src="Images/story3.jpg">
+                <p>Popular countries with a budget of just $10,000</p>
+            </div>
+            <div>
+                <img src="Images/story2.jpg">
+                <p>Popular countries with a budget of just $10,000</p>
+            </div>
+            <div>
+                <img src="Images/story4.jpg">
+                <p>Popular countries with a budget of just $10,000</p>
+            </div>
+            <div>
+                <img src="Images/story1.jpg">
+                <p>Popular countries with a budget of just $10,000</p>
+            </div>
+        </div>
+        <a href="#" class="start-btn">Start making money</a>
+
+        <div class="about-msg">
+            <h2>About TravelTrove</h2>
+            <p> Welcome to your ultimate travel companion! Explore the world with ease and discover hidden gems at every
+                turn. Our travel website offers curated experiences, insider tips, and unbeatable deals to make your
+                journey unforgettable. Whether you're seeking adventure, relaxation, or culture, we've got you covered.
+                Start planning your dream getaway today. Discover, dream, and explore with us!</p>
+        </div>
+        <div class="footer">
+            <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <hr>
+            <p>Copyright@2024,TravelTrove.</p>
+        </div>
+    </div>
+    <script>
+        var navBar = document.getElementById("navBar");
+
+        function togglebtn() {
+            if (navBar) {
+                navBar.classList.toggle("hidemenu");
+            } else {
+                console.error("Element with ID 'navBar' not found");
+            }
+        }
+
+        function navigateTo(page) {
+            window.location.href = page;
+        }
+
+    </script>
+
+</body>
+
+</html>
